@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "bnazanin";
+    overflow: hidden;
+}
+html {
+    font-size: 10px;
+    background: #53900F;
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 25px;
+    background-color:#1F2605;
+
+}
+section ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left:1100px;
+    
+}
+section ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    color:white;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    background-color:#1F2605
+}
+nav img{
+    margin-left: 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left:600px;
+}
+    nav ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        color:white;
+        margin-left: 28px;
+}
+nav ul i:hover{
+    opacity:.6;
+}
+#header-main{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 1fr  ;
+    margin-left: 0px;
+    background-color:#53900F;
+    height: 350px;
+}
+#header-main-content-h1{
+    font-size: 20px;
+}
+#header-main-content-p{
+    font-size: 5px;
+    margin-top: 10px;
+        width: 80%;
+}
+#header-main-content button
+{
+    font-size: 25px;
+    margin: 0;
+    padding: 14px 63px ;
+        border: none;
+    outline: none;
+    color:  white;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color:#1F6521;
+
+}
+#cta:hover{
+    opacity: .6;
+
+}
+#header-main-img{
+    margin-left:250px;
+    margin-top:20px;
+    
+    width: 800px;
+    height: 600px;
+}
